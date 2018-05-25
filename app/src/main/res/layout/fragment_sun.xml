@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/Wsh"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="229dp"
+        android:layout_weight="1"
+        android:text="Wschód"
+        android:textSize="18sp"
+        tools:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="227dp"
+        android:layout_height="178dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/sun" />
+
+    <TextView
+        android:id="@+id/Zach"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Wsh"
+        android:layout_marginEnd="12dp"
+        android:layout_weight="1"
+        android:text="Zachód"
+        android:textSize="18sp"
+        tools:textColor="@android:color/black" />
+
+
+    <Button
+        android:id="@+id/Options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="22dp"
+        android:layout_weight="1"
+        android:text="Ustawienia" />
+
+    <TextView
+        android:id="@+id/ws_num"
+        android:layout_width="115dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="214dp"
+        android:layout_marginStart="21dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/za_num"
+        android:layout_width="115dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/ws_num"
+        android:layout_marginEnd="19dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/LatAndLiong"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="133dp"
+        android:text="Wysokość i szerokość "
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/LatAndLiong"
+        android:layout_marginBottom="100dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/longtitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/latitude"
+        android:layout_marginEnd="125dp"
+        android:text="TextView" />
+
+
+</RelativeLayout>
